@@ -1,0 +1,27 @@
+{
+  "livre1": {
+    "title": "20 000 lieues sous les mers",
+    "author": "Jules Verne",
+    "description": "Vingt Mille Lieues sous les mers est un roman d'aventures de Jules Verne, paru en 1869-1870. Il relate le voyage de trois naufragés capturés par le capitaine Nemo, mystérieux inventeur qui parcourt les fonds des mers à bord du Nautilus, un sous-marin très en avance sur les technologies de l'époque."
+  },
+  "livre3": {
+    "title": "Le tour du monde en 80 jours",
+    "author": "Jules Verne",
+    "description": "Le Tour du monde en quatre-vingts jours est un roman d'aventures de Jules Verne, publié en 1872. Le roman raconte la course autour du monde d'un gentleman anglais, Phileas Fogg, qui a fait le pari d'y parvenir en quatre-vingts jours. Il est accompagné par Jean Passepartout, son serviteur français."
+  },
+  "livre4": {
+    "title": "L'île mystérieuse'",
+    "author": "Jules Vernes",
+    "description": "L’Île mystérieuse est un roman de Jules Verne, paru en 1875. Il relate les aventures de cinq personnages et un chien qui, fuyant le siège de Richmond pendant la guerre de Sécession, s'échouent sur une île inconnue qu'ils baptisent l'île Lincoln. Grâce à leurs compétences variées et leur astuce, ils s'efforcent de reconstituer une vie confortable sur cette île déserte, mais ils font face à plusieurs périls et à d'étranges phénomènes"
+  },
+  "livre5": {
+    "title": "Notre-Dame de Paris",
+    "author": "Victor Hugo",
+    "description": "Notre-Dame de Paris (titre complet : Notre-Dame de Paris. 1482) est un roman historique de l'écrivain français Victor Hugo, publié en 1831."
+  },
+  "livre6": {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "description": "Dans ce roman, l’un des plus vastes et des plus notables de la littérature française du xixe siècle, qui décrit la vie de pauvres gens dans Paris et la France provinciale du premier tiers du xixe siècle, l’auteur s'attache plus particulièrement au destin du bagnard Jean Valjean. "
+  }
+}

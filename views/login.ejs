@@ -1,0 +1,42 @@
+<%- include('header') %>
+</head>
+
+
+<body>
+<br>
+
+<form method="POST" action="/user/login" class="row g-3" style="margin: 1em;">
+
+
+    <div class="col md-6">
+        <input
+                type="text"
+                class="form-control"
+                placeholder="E-mail"
+                name="email"
+        />
+    </div>
+    <div class="col md-6">
+        <input
+                type="password"
+                class="form-control"
+                placeholder="Mot de passe"
+                name="password"
+        />
+    </div>
+
+
+    </div>
+
+    <button class="btn btn-secondary" type="submit">Envoyer</button>
+
+</form>
+<form method="GET" action="/user/signupForm">
+    <div>
+        <button class="btn btn-info" type="submit"> Nouvel Utilisateur</button>
+    </div>
+
+</form>
+
+</body>
+</html>

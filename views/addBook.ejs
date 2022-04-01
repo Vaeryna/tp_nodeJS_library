@@ -1,0 +1,41 @@
+<%- include('header') %>
+</head>
+ 
+
+  <body>
+   <br>
+
+    <form method="POST" action="/addBook/newBook" class="row g-3" style="margin: 1em;">
+    
+      <div class="col md-6">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Titre"
+            name="title"
+          />
+        </div>
+        <div class="col md-6">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Auteur"
+            name="author"
+          />
+        </div>
+  
+        <div class="col-12" style="margin: 1em 0 1em 0;">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Description"
+            name="description"
+          />
+        </div>
+  
+      </div>
+
+      <button class="btn btn-secondary" type="submit">Envoyer</button>
+    </form>
+  </body>
+</html>

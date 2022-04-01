@@ -1,0 +1,45 @@
+<%- include ('header')%>
+<body>
+    <br>
+ 
+     <form method="POST" action="/updateBook/<%= bookId%>" class="row g-3" style="margin: 1em;">
+     
+       <div class="col md-6">
+           <input
+             type="text"
+             class="form-control"
+             placeholder="Titre"
+             name="title"
+             value= "<%= bookTitle %>"
+           
+           />
+         </div>
+         <div class="col md-6">
+           <input
+             type="text"
+             class="form-control"
+             placeholder="Auteur"
+             name="author"
+             value="<%= bookAuthor %>"
+           
+           />
+         </div>
+   
+         <div class="col-12" style="margin: 1em 0 1em 0;">
+           <input
+           type="text"
+           class="form-control"
+           placeholder="Description"
+           name="description"
+           value= "<%= bookDescription %>"
+          />
+            
+         </div>
+   
+       </div>
+ 
+       <button class="btn btn-secondary" type="submit">Envoyer</button>
+     </form>
+   </body>
+ </html>
+ 
